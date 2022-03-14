@@ -469,6 +469,7 @@ body {
 }
 
 .upper {
+  font-family: 'Paytone One';
   text-transform: uppercase;
 }
 
@@ -983,7 +984,187 @@ body {
 }
 
 .site-footer {
+  background-color: #c4c4c4;
   background-image: url(../../img/footer-bg.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-bottom: 111px;
+  position: relative;
+}
+
+.site-footer .element {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-image: url(../../img/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.site-footer .inner {
+  width: 117px;
+  height: 117px;
+  background-color: #ff1640;
+  border-radius: 50%;
+}
+
+.big-container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-left {
+  width: 740px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-logo {
+  font-family: "Paytone One";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 45px;
+  line-height: 63px;
+  color: white;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.footer-menus {
+  width: 427px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menus-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 22px;
+}
+
+.footer-menu-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-menu-item {
+  margin-bottom: 11px;
+}
+
+.footer-menu-link {
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  color: white;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.footer-right {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.social-link {
+  margin-left: 32px;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.terms {
+  margin-top: 14px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+.copyright {
+  margin-top: 11px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+.thanks-textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 108px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 410px;
+  height: 56px;
+  background: white;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+}
+
+.thanks-text {
+  font-family: "Paytone One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: black;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  margin: 0;
 }

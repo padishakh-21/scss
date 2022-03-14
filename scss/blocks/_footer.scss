@@ -1,5 +1,151 @@
 .site-footer {
+    background-color: rgb(196, 196, 196);
     background-image: url(../../img/footer-bg.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 111px;
+    position: relative;
+}
+
+.site-footer .element {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-image: url(../../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+.site-footer .inner {
+    width: 117px;
+    height: 117px;
+    background-color: rgb(255, 22, 64);
+    border-radius: 50%;
+}
+
+.big-container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 740px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: "Paytone One";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 45px;
+    line-height: 63px;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease;
+}
+
+.footer-menus {
+    width: 427px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menus-header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 22px;
+}
+
+.footer-menu-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-menu-item {
+    margin-bottom: 11px;
+}
+
+.footer-menu-link {
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    transition: opacity 0.5s ease;
+}
+
+.footer-right {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-link {
+    margin-left: 32px;
+    transition: opacity 0.5s ease;
+}
+
+.terms {
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    margin-top: 11px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+}
+
+.thanks-textbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 108px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+}
+
+.thanks-text {
+    font-family: "Paytone One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin: 0;
 }
